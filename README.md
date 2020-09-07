@@ -12,7 +12,7 @@ _____
 - [RSpec](https://rspec.info/) as testing framework;
 - [Heroku](https://www.heroku.com/) as deploy platform.
 
-## :laptop: About this Project
+## :desktop computer: About this Project
 
 This RESTful API was built using Rails 6. It requires postgres for both development and deployment. The development follows RoR with TDD workflow as with creating tests to fail, implementing the desired feature and running tests again to verify if all tests are correctly passing.
 
