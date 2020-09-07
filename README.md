@@ -8,7 +8,7 @@ _____
 ## :rocket: Tech Stack
 
 - [Rails](https://rubyonrails.org/) as webapp framework;
-- [PostgreSQL](https://www.postgresql.org/) for data persistance;
+- [PostgreSQL](https://www.postgresql.org/) for data persistence;
 - [RSpec](https://rspec.info/) as testing framework;
 - [Heroku](https://www.heroku.com/) as deploy platform.
 
