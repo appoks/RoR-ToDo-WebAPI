@@ -1,22 +1,25 @@
-# README
+# RoR - ToDo Web RAPI
+#### TODO APP - Ruby on Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Developing a ToDo WebAPI using Rails by following [Austin Kabiru's tutorial](https://scotch.io/tutorials/build-a-restful-json-api-with-rails-5-part-one#toc-project-setup)
 
-Things you may want to cover:
+_____
 
-* Ruby version
+## :rocket: Tech Stack
 
-* System dependencies
+- [Rails](https://rubyonrails.org/) as webapp framework;
+- [PostgreSQL](https://www.postgresql.org/) for data persistance;
+- [RSpec](https://rspec.info/) as testing framework;
+- [Heroku](https://www.heroku.com/) as deploy platform.
 
-* Configuration
+## :laptop: About this Project
 
-* Database creation
+This RESTful API was built using Rails 6. It requires postgres for both development and deployment. The development follows RoR with TDD workflow as with creating tests to fail, implementing the desired feature and running tests again to verify if all tests are correctly passing.
 
-* Database initialization
+You can create a user, perform the login and logout operation (authentication is built with JWT.) and interact with two types of resources: ToDos and Items. A ToDo can have many Items.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+## :wrench: TODO
+- FIX HEROKU DATABASE!
+- FIX HOMEPAGE!
+- Include followed tutorial in repo.
